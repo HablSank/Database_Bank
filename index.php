@@ -3,21 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BankBangBank</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Bank Asep Terpercaya</title>
 </head>
 
 <body>
-    <header>
-        <h1>BankBangBank</h1>
-        <h3>Bank Aman Dan Terpercaya</h3>
-    </header>    
+    <header class="header-menu">
+        <h1 class="logo">Asep</h1>
+        <nav>
+            <ul>
+                <li><a href="form-daftar-nasabah.php">Pendaftaran</a></li>
+                <li><a href="list-nasabah.php">Member</a></li>
+                <li><a href="index.php">Beranda</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="g"><button>Contact</button></a>
+    </header>
+    <section class="upper-section">   
+        <h1>Bank Asep Terpercaya</h1>
+        <h2>Bank Aman Dan Terpercaya</h2>
+        <br>
+        <a href="form-daftar-nasabah.php" class="btn">mulai pendaftaran</a>
+    </section> 
+    <section>
+    </section>
+    <?php if(isset($_GET['status'])): ?>
+    <p>
+        <?php
+            if($_GET['status'] == 'sukses'){
+                echo "Pendaftaran nasabah baru berhasil!";
+            } else {
+                echo "Pendaftaran nasabah gagal!";
+            }
+        ?>
+    </p>
+<?php endif; ?>
 
-    <h2>Menu</h2>
-    <nav>
-        <ul>
-        <li><a href=""></a>Daftar Nasabah</li>
-        <li><a href="">Para Nasabah</a></li>
-        </ul>
-    </nav>
 </body>
 </html>

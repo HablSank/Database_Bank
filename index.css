@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans seriff', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background: radial-gradient(circle, rgb(21, 53, 100) 30%, rgba(2, 12, 27, 1) 90%);
+    color: #e6f1ff;
+    overflow-x: hidden;
+}
+a .btn {
+    background: linear-gradient(45deg, #ff66cc, #00eaff);
+    color: black;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    display: block;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px #00eaff, 0 0 30px #00eaff;
+    border: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #ff66cc;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+}
+.btn:hover {
+    background: linear-gradient(45deg, #00eaff, #ff66cc);
+    box-shadow: 0 0 20px #ff66cc, 0 0 50px #ff66cc;
+    transform: scale(1.1);
+}
+nav, li, a, button{
+    font-family: 'sans-serif', sans-serif;
+    text-decoration: none;
+    display: inline;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 34, 255);
+    background: none;
+    justify-content: space-around;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(150, 174, 254);
+    backdrop-filter: blur(30%);
+}
+.icon{
+    background: none;
+    cursor: pointer;
+}
+nav{
+    list-style: none;
+}
+.logo{
+    background: none;
+}
+nav li{
+    display: inline-block;
+    padding:  0px 20px;
+    flex-wrap: wrap;
+}
+nav li a{
+    transition: all 0.3s ease 0s;
+    border-radius: 15px;
+    padding: 9px 25px;
+}
+nav li a:hover{
+    color: rgb(247, 247, 247);
+    background-color: blue;
+}
+button{
+    padding: 9px 25px;
+    background-color: aliceblue(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+section{
+    background-color: #7987d4;
+    border: 25%;
+    backdrop-filter: transparent;
+    backdrop-filter: blur 50%;
+}
+.upper-section{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20vh;
+}
