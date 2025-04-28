@@ -72,3 +72,9 @@ button:hover{
     background-color: blue;
     color: aliceblue;
 }
+table{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}

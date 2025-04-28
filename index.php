@@ -23,9 +23,11 @@
         <h1>Bank Asep Terpercaya</h1>
         <h2>Bank Aman Dan Terpercaya</h2>
         <br>
-        <a href="form-daftar-nasabah.php" class="btn">mulai pendaftaran</a>
+        <a href="form-daftar-nasabah.php" class="cta">mulai pendaftaran</a>
     </section> 
-    <section>
+    <section class="about-section">
+        <p>kami adalah bank yang telah berdiri dari 1200 sebelum masehi</p>
+        <p>fir'aun pernah ngitang disini</p>
     </section>
     <?php if(isset($_GET['status'])): ?>
     <p>
