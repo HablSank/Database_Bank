@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="main.css" />
     <title>Bank Asep Terpercaya</title>
 </head>
-
 <body>
+
     <header class="header-menu">
         <h1 class="logo">Asep</h1>
         <nav>
@@ -17,20 +17,34 @@
                 <li><a href="index.php">Beranda</a></li>
             </ul>
         </nav>
-        <a class="cta" href="g"><button>Contact</button></a>
     </header>
-    <section class="upper-section">   
-        <h1>Bank Asep Terpercaya</h1>
-        <h2>Bank Aman Dan Terpercaya</h2>
-        <br>
-        <a href="form-daftar-nasabah.php" class="cta">mulai pendaftaran</a>
-    </section> 
-    <section class="about-section">
-        <p>kami adalah bank yang telah berdiri dari 1200 sebelum masehi</p>
-        <p>fir'aun pernah ngitang disini</p>
+
+    <section class="upper-section">
+        <div class="hero-text">
+            <h1>Bank Asep Terpercaya</h1>
+            <h2>Bank Aman dan Terpercaya Sejak Dulu</h2>
+            <a href="form-daftar-nasabah.php" class="btn">Mulai Pendaftaran</a>
+        </div>
     </section>
+
+    <section class="about-section">
+        <div class="about-content">
+            <div class="text">
+                <h2>Tentang Kami</h2>
+                <p>Kami adalah bank yang telah berdiri sejak 1200 SM.</p>
+                <p>Bahkan Fir'aun pernah berutang di sini.</p>
+            </div>
+            <div class="image">
+                <img src="asset/Foto-Asep.jpg" alt="Founder 1 Bank Asep" />
+                <img src="asset/Foto-Parama.jpg" alt="Founder 2 Bank Asep" />
+                <img src="asset/Foto-Habl.jpg" alt="Founder 3 Bank Asep" />
+                <img src="asset/Foto-Hafizh.jpg" alt="Founder 4 Bank Asep" />
+            </div>
+        </div>
+    </section>
+
     <?php if(isset($_GET['status'])): ?>
-    <p>
+    <p class="status-msg">
         <?php
             if($_GET['status'] == 'sukses'){
                 echo "Pendaftaran nasabah baru berhasil!";
@@ -39,7 +53,7 @@
             }
         ?>
     </p>
-<?php endif; ?>
+    <?php endif; ?>
 
 </body>
 </html>

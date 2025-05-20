@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pendaftaran Nasabah</title>
-    <link rel="stylesheet" href="form-daftar-nasabah.css">
+    <link rel="stylesheet" href="form-daftar.css">
 </head>
 
 <body>
@@ -18,7 +18,6 @@
                 <li><a href="index.php">Beranda</a></li>
             </ul>
         </nav>
-        <a class="cta" href="g"><button>Contact</button></a>
     </header>
     <section class="upper-section">
         <h1>Forum Data Diri</h1>
@@ -51,7 +50,6 @@
             </p>
             <p>
                 <input type="submit" value="Daftar" name="Daftar" /><br><br>
-                <a href="index.php">Beranda</a>
             </p>
         </fieldset>
     </form>

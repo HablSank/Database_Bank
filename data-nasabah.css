@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: radial-gradient(circle, rgb(21, 53, 100) 30%, rgba(2, 12, 27, 1) 90%);
+    color: #e6f1ff;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #002244;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+    background-color: #0059b3;
+    color: #ffffff;
+}
+
+/* Content Area */
+.container {
+    padding: 40px 10%;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+/* Tabel Styling */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+    background-color: #003366;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.actions a {
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 0 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.btn-edit {
+    background-color: #3399ff;
+}
+
+.btn-edit:hover {
+    background-color: #2673c5;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    text-align: right;
+    color: #a3c2f7;
+}
